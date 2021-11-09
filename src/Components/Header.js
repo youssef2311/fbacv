@@ -35,6 +35,8 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">I'm Faten Ben Aissa.</h1>
+           
+              
             <h3><li>Consultante en Communication et Relations Publiques,</li>
             <br />
             <li>Conseillère et formatrice en techniques de communication et développement personnel </li>   <br />
@@ -42,9 +44,11 @@ class Header extends Component {
             <li>Experte en Gestion de crise, conduite du changement et Entrepreneuriat </li>   <br />
             <li>Mentor des jeunes porteurs d’idées, porteurs de projets.</li>   <br />
             </h3>
+          
+         
             <hr />
             <ul className="social">
-               {networks}
+               {/* {networks} */}
             </ul>
          </div>
       </div>

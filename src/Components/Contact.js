@@ -27,7 +27,7 @@ class Contact extends Component {
 
             <div className="ten columns">
 
-                  <p className="lead">{message}</p>
+                  <p className="lead">You can contact me ! </p>
 
             </div>
 
@@ -78,34 +78,33 @@ class Contact extends Component {
             <aside className="four columns footer-widgets">
                <div className="widget widget_contact">
 
-					   <h4>Address and Phone</h4>
+					   <h4>Contact Information</h4>
 					   <p className="address">
-						   {name}<br />
-						   {street} <br />
-						   {city}, {state} {zip}<br />
-						   <span>{phone}</span>
+						   FATEN Ben Aissa<br />
+						  
+						  bardo, tunis 2000<br />
+						   <span>20359546</span>
 					   </p>
 				   </div>
 
                <div className="widget widget_tweets">
-                  <h4 className="widget-title">Latest Tweets</h4>
+                  <h4 className="widget-title">pourquoi la communication est importante ?</h4>
                   <ul id="twitter">
                      <li>
                         <span>
-                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
+                        Communiquer c'est avant tout établir une relation. Une communication réussie est un formidable outil de motivation, de fidélisation, d'innovation. ... Quittons la communication descendante, ne nous privons pas de ces formidables richesses que sont les idées des salariés, clients, partenaires de l'entreprise.
+                        {/* <a href="#">http://t.co/CGIrdxIlI3</a> */}
                         </span>
                         <b><a href="#">2 Days Ago</a></b>
                      </li>
-                     <li>
+                     {/* <li>
                         <span>
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
                         eaque ipsa quae ab illo inventore veritatis et quasi
                         <a href="#">http://t.co/CGIrdxIlI3</a>
                         </span>
                         <b><a href="#">3 Days Ago</a></b>
-                     </li>
+                     </li> */}
                   </ul>
 		         </div>
             </aside>
